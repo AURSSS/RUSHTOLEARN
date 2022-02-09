@@ -1,1 +1,1 @@
-web: node Assets/js/main.js
+web: node assets/js/main.js
