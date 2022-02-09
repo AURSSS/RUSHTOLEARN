@@ -20,7 +20,7 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
 
 
 try {
-    $conn = new PDO("mysql:host=$cleardb_server;dbname=workfile", $cleardb_username, $cleardb_password);
+    $conn = new PDO("mysql:host=$cleardb_server;dbname=heroku_6daa70e44adaa77", $cleardb_username, $cleardb_password);
     // set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $conn->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
